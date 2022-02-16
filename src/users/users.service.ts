@@ -3,7 +3,7 @@ import { User } from './users.model';
 import { InjectModel } from '@nestjs/sequelize';
 import { CreateUserDto } from './dto/create-user.dto';
 import { RolesService } from '../roles/roles.service';
-
+//Example using Service pattern
 @Injectable()
 export class UsersService {
   constructor(
